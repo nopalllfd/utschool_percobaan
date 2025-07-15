@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f4f8;
+  color: #333;
+  padding: 20px;
+}
+
+h1,
+h2 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+nav {
+  margin-bottom: 30px;
+  background-color: #007bff;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffc107;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* marquee {
+  position: absolute;
+  bottom: 10px;
+  background-color: #ffc107;
+} */
+
+/* form */
+
+form table {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+form td {
+  padding: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+input[type='submit'] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+input[type='submit']:hover {
+  background: #0056b3;
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/mona-sans/Mona-Sans.css"
+    />
+
+    <style>
+      .content header div {
+        margin-bottom: 150px;
+      }
+
+      .content header div a {
+        padding: 10px;
+        color: #dfd0b8;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 0.5s;
+      }
+      .content header div a:hover {
+        color: #393e46;
+      }
+      .all-medsos {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <header align="right">
+        <div>
+          <a href="index.html">Home</a>
+          <a href="about.html">About Me</a>
+          <a href="contact.html">Contact Me</a>
+        </div>
+      </header>
+
+      <main
+        align="center"
+        width="50px"
+      >
+        <center class="center">
+          <table
+            border="0"
+            cellpadding="5"
+            class="message"
+          >
+            <tr>
+              <td>
+                <label for="nama">Nama :</label>
+              </td>
+              <td>
+                <input
+                  type="text"
+                  id="nama"
+                  name="nama"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="email">Email :</label>
+              </td>
+              <td>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="pesan">Pesan :</label>
+              </td>
+              <td>
+                <textarea
+                  name="pesan"
+                  id="pesan"
+                  rows="4"
+                  cols="30"
+                ></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td
+                colspan="2"
+                align="center"
+              >
+                <input
+                  type="submit"
+                  class="button"
+                  value="Share Message"
+                />
+              </td>
+            </tr>
+          </table>
+          <table class="all-medsos">
+            <h5>Or just contact me on :</h5>
+            <br />
+            <br />
+            <tr>
+              <td>
+                <a
+                  class="medsos"
+                  href="https://www.instagram.com/nfalfdlh"
+                  ><img
+                    src="icons/logo-instagram.svg"
+                    alt=""
+                    width="40px"
+                /></a>
+              </td>
+
+              <td>
+                <a
+                  class="medsos"
+                  href="https://www.linkedin.com/in/muhammad-naufal-fadhilah-a72568259/"
+                  ><img
+                    src="icons/logo-linkedin.svg"
+                    alt=""
+                    width="40px"
+                /></a>
+              </td>
+
+              <td>
+                <a href="https://mail.google.com/mail/u/0/?hl=en#inbox?compose=CllgCKCBBXhZjMZXtmtbghPSvrDNJRQhsPtLrpzMBwtrJtnxJBVgwmrjdkQmQKFsXQcDXJhlGVB"
+                  ><img
+                    src="icons/mail-outline.svg"
+                    width="40px"
+                    alt=""
+                /></a>
+              </td>
+
+              <td>
+                <a
+                  class="medsos"
+                  href="https://wa.me/6285167260326"
+                  ><img
+                    src="icons/logo-whatsapp.svg"
+                    width="40px"
+                    alt=""
+                /></a>
+              </td>
+            </tr>
+          </table>
+        </center>
+      </main>
+      <footer>
+        <br />
+        Copyright Naufal
+        <br />
+        <br />
+      </footer>
+    </div>
+  </body>
+</html>

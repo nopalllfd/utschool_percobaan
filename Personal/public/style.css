@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: 'Mona Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 60%;
+  color: #dfd0b8;
+  margin: 0 auto;
+  background-color: #222831;
+}
+
+main {
+  align-items: center;
+}
+
+hr {
+  color: #000;
+  background-color: #000;
+}
+center {
+  display: flex;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+}
+.image-text {
+  position: relative;
+  font-size: 15px;
+  top: 120px;
+  right: 60px;
+}
+
+.image-text p {
+  font-family: 'Helvetica', 'Arial', 'sans-serif';
+}
+.image-text .intro-text {
+  font-size: 12px;
+  color: #5f6772;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  bottom: 10px;
+  position: relative;
+  transform: translateX(50px);
+  animation: masuk 2s ease forwards;
+}
+.image-text .about-me {
+  bottom: 10px;
+  position: relative;
+  transform: translateX(50px);
+  animation: masuk 2s ease forwards;
+}
+.image-text .fill-text {
+  font-size: 35px;
+  color: #c3c5c8;
+  opacity: 0;
+  transform: translateX(50px);
+  animation: masuk 2s ease forwards;
+}
+.image-text a {
+  color: white;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.image-text .front-end {
+  font-size: 21px;
+  color: #c3c5c8;
+}
+.image-text .it-enthusiast {
+  font-size: 34px;
+  color: #c3c5c8;
+  background-color: #252525;
+}
+
+@keyframes masuk {
+  to {
+    opacity: 1; /* akhiri dengan opacity 1 (tampak) */
+    transform: translateX(0); /* akhiri di posisi semula */
+  }
+}
+.motto {
+  background-color: #1f1e24;
+  padding: 10px 20px;
+}
+.image-text a:hover {
+  color: #393e46;
+}
+
+.medsos {
+  color: white;
+}
+
+.message {
+  position: relative;
+  bottom: 90px;
+  font-size: 20px;
+}
+.message .button {
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: #5a5767;
+  text-decoration: none;
+  box-shadow: none;
+  padding: 10px;
+  color: #dfd0b8;
+  outline: none;
+  box-shadow: none;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+}
+
+.text-dark {
+  color: #1f1e24;
+}
+.text-dark-light {
+  color: #48474c;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 20px;
+  position: relative;
+  bottom: 20px;
+  display: flex;
+  padding: 10px;
+}
+button {
+  /* Hilangkan style bawaan browser */
+  appearance: none;
+  -webkit-appearance: none;
+
+  /* Hilangkan border dan background default */
+  border: none;
+  background: none;
+
+  /* Hilangkan shadow dan outline bawaan */
+  box-shadow: none;
+  outline: none;
+
+  /* Styling sesuai keinginan Anda */
+  background-color: #2c2c2c; /* warna background */
+  color: white; /* warna teks */
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.all-sosmed {
+  position: relative;
+}
